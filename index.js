@@ -5,7 +5,7 @@ function updateObjectWithKeyAndValue(object,key,value) {
   const recipe = { egg: 3}
 }
 function updateObjectWithKeyAndValue(object,key,value) {
-  object[key] = value
-  return object
+  Object.assign({} {key: 'value'})
+  return Object[key] = value
 
 }
